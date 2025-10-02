@@ -1,0 +1,76 @@
+// Campaign Assistant Token Tracking Architecture
+digraph token_tracking {
+	dpi=300 rankdir=TB size="12,10"
+	node [fontname=Arial fontsize=10 shape=box style="rounded,filled"]
+	edge [fontname=Arial fontsize=9]
+	user_query [label="User Query" fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	langgraph_agent [label="LangGraph Agent
+
+• Query processing
+• Tool orchestration
+• Workflow management" fillcolor="#E3F2FD"]
+	llm_processing [label="LLM Processing
+
+• OpenAI/LM Studio
+• Token consumption
+• Response generation
+• Usage metadata" fillcolor="#FFF3E0"]
+	token_calculation [label="Token Calculation
+
+• Input token count
+• Output token count
+• Usage metadata
+• Cost calculation" fillcolor="#F3E5F5"]
+	token_tracker_db [label="TokenTracker Database
+
+• conversations.db
+• token_usage table
+• user_id tracking
+• thread_id isolation" fillcolor="#E0F2F1"]
+	usage_analytics [label="Usage Analytics
+
+• Total token count
+• Cost analysis
+• Usage patterns
+• Performance metrics" fillcolor="#FFEBEE"]
+	user_dashboard [label="User Dashboard
+
+• Account page display
+• Real-time statistics
+• Historical data
+• Cost monitoring" fillcolor="#E8F5E8"]
+	response_generation [label="Response Generation
+
+• Formatted response
+• Context integration
+• Source attribution" fillcolor="#E3F2FD"]
+	save_chat_tokens [label="Save Chat + Tokens
+
+• Store conversation
+• Record token usage
+• Update statistics
+• Maintain history" fillcolor="#E0F2F1"]
+	cost_monitoring [label="Cost Monitoring
+
+• Real-time costs
+• Budget tracking
+• Usage alerts
+• Optimization insights" fillcolor="#FFEBEE"]
+	usage_limits [label="Usage Limits
+
+• Rate limiting
+• Budget controls
+• Access management
+• Quota enforcement" fillcolor="#FFEBEE"]
+	user_query -> langgraph_agent [label="Process Query"]
+	langgraph_agent -> llm_processing [label="LLM Request"]
+	llm_processing -> token_calculation [label="Usage Metadata"]
+	token_calculation -> token_tracker_db [label="Store Tokens"]
+	token_calculation -> response_generation [label="Continue Flow"]
+	token_tracker_db -> usage_analytics [label="Aggregate Data"]
+	usage_analytics -> user_dashboard [label="Display Stats"]
+	response_generation -> save_chat_tokens [label="Save Interaction"]
+	save_chat_tokens -> token_tracker_db [label="Update Database"]
+	token_tracker_db -> cost_monitoring [label="Cost Data"]
+	token_tracker_db -> usage_limits [label="Usage Data"]
+}

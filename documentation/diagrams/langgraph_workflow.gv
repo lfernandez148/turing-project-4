@@ -1,0 +1,38 @@
+// Campaign Assistant LangGraph Workflow
+digraph langgraph_workflow {
+	dpi=300 rankdir=TB size="12,10"
+	node [fontname=Arial fontsize=10 shape=box style="rounded,filled"]
+	edge [fontname=Arial fontsize=9]
+	START [label=START fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	analyze_query [label="Query Analyzer
+
+• Understand user intent
+• Extract entities
+• Determine data needs
+• Set query type" fillcolor="#E3F2FD"]
+	should_retrieve [label="Conditional Logic
+
+needs_data?
+(Decision Point)" fillcolor="#FFEBEE" shape=diamond]
+	retrieve_data [label="Data Retriever
+
+• Fetch campaign data
+• Search documents
+• Aggregate metrics
+• Format results" fillcolor="#FFF3E0"]
+	generate_response [label="Response Generator
+
+• Create formatted response
+• Generate insights
+• Suggest visualizations
+• Add recommendations" fillcolor="#F3E5F5"]
+	END [label=END fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	START -> analyze_query [label="Entry Point"]
+	analyze_query -> should_retrieve [label="Analyze Complete"]
+	should_retrieve -> retrieve_data [label="needs_data = True
+(Performance, Analysis, Comparison)" color=green]
+	should_retrieve -> generate_response [label="needs_data = False
+(General queries)" color=blue]
+	retrieve_data -> generate_response [label="Data Retrieved"]
+	generate_response -> END [label="Response Complete"]
+}

@@ -1,0 +1,62 @@
+// Campaign Assistant Authentication Flow
+digraph authentication_flow {
+	dpi=300 rankdir=TB size="12,10"
+	node [fontname=Arial fontsize=10 shape=box style="rounded,filled"]
+	edge [fontname=Arial fontsize=9]
+	user_access [label="User Access" fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	authenticated [label="Authenticated?" fillcolor="#FFEBEE" shape=diamond]
+	main_app [label="Main Application" fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	login_page [label="Login Page" fillcolor="#E3F2FD"]
+	choose_action [label="Choose Action" fillcolor="#FFEBEE" shape=diamond]
+	sign_in [label="Sign In
+
+• Email/Password
+• Form validation" fillcolor="#FFF3E0"]
+	sign_up [label="Sign Up
+
+• Create account
+• Email verification
+• Auto-login" fillcolor="#FFF3E0"]
+	reset_password [label="Reset Password
+
+• Email reset link
+• Firebase email
+• Return to login" fillcolor="#FFF3E0"]
+	firebase_auth [label="Firebase Auth
+
+• REST API calls
+• Token generation
+• Session management" fillcolor="#E3F2FD"]
+	auth_success [label="Success?" fillcolor="#FFEBEE" shape=diamond]
+	set_session [label="Set Session State
+
+• user_email
+• user_id
+• id_token
+• role (admin/user)
+• login_time" fillcolor="#E8F5E8"]
+	show_error [label="Show Error
+
+• Display error message
+• Return to form
+• Clear inputs" fillcolor="#FFCDD2"]
+	user_access -> authenticated [label="Initial Request"]
+	authenticated -> main_app [label="Yes
+(Valid Session)" color=green]
+	authenticated -> login_page [label="No
+(No Session)" color=red]
+	login_page -> choose_action [label="Display Options"]
+	choose_action -> sign_in [label=Login]
+	choose_action -> sign_up [label=Register]
+	choose_action -> reset_password [label="Forgot Password"]
+	sign_in -> firebase_auth [label="Submit Credentials"]
+	sign_up -> firebase_auth [label="Create Account"]
+	reset_password -> firebase_auth [label="Send Reset Email"]
+	firebase_auth -> auth_success [label="Process Request"]
+	auth_success -> set_session [label="Yes
+(Valid Response)" color=green]
+	auth_success -> show_error [label="No
+(Error Response)" color=red]
+	set_session -> main_app [label="Redirect to App"]
+	show_error -> login_page [label="Return to Form"]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "campaign": "Holiday Sales Event",
+    "topic": "Holiday Sales Event",
+    "audience": "Seniors 55+",
+    "is_sensitive": false,
+    "prompt": "\"A festive winter wonderland scene with an elegant, warm-toned color palette and inviting atmosphere. Soft lighting and a cozy, comfortable ambiance set the stage for a luxurious holiday sales event tailored to seniors 55+. Subtle visual metaphors like a crackling fireplace, a hot cup of cocoa, and a wrapped gift evoke the joy and nostalgia of the season. The composition is balanced and visually striking, with ample negative space to accommodate minimal, tasteful text overlays.\"",
+    "image_path": {
+      "image_path": "/Users/lolo/shared/projects/turing/sprint-4/project-4/web/www/images/public/holiday-sales-event-campaign.png",
+      "metadata_path": "/Users/lolo/shared/projects/turing/sprint-4/project-4/web/www/images/public/holiday-sales-event-metadata.json",
+      "folder": "public",
+      "filename": "holiday-sales-event-campaign.png",
+      "metadata": {
+        "campaign_name": "Holiday Sales Event",
+        "topic": "Holiday Sales Event",
+        "audience": "Seniors 55+",
+        "is_sensitive": false,
+        "enhanced_prompt": "\"A festive winter wonderland scene with an elegant, warm-toned color palette and inviting atmosphere. Soft lighting and a cozy, comfortable ambiance set the stage for a luxurious holiday sales event tailored to seniors 55+. Subtle visual metaphors like a crackling fireplace, a hot cup of cocoa, and a wrapped gift evoke the joy and nostalgia of the season. The composition is balanced and visually striking, with ample negative space to accommodate minimal, tasteful text overlays.\"",
+        "dalle_revised_prompt": "A holiday-themed winter scene with a warm, rich color palette. The scene is intended for an elegant sales event catered towards seniors of 55+ years, and should provide a comfortable and inviting environment. Key visuals for this image include a softly lit, crackling fireplace, a steaming mug of hot cocoa, and a elegantly wrapped gift to emanate joy and nostalgia associated with the holiday season. The composition of the image should maintain a sense of balance and visual impact, and include ample negative space for potential, minimalist text overlays to be added.",
+        "original_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-hG61Y7KtUh3me9ZSfAyW0zr7/user-9VndOxI6frU26Y3xZ3Jie3gz/img-hn6KsQzeXTemvkQ8DOtOssLq.png?st=2025-09-14T10%3A33%3A59Z&se=2025-09-14T12%3A33%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T21%3A08%3A16Z&ske=2025-09-14T21%3A08%3A16Z&sks=b&skv=2024-08-04&sig=XDAZ9A%2Bd%2BrD%2BBHz7TCYmwiZ%2BdO2VVDEyGrUXGWDQUnc%3D",
+        "generated_at": "2025-09-14 21:34:02",
+        "folder": "public",
+        "filename": "holiday-sales-event-campaign.png",
+        "file_size_bytes": 1828789
+      }
+    },
+    "status": "success"
+  },
+  {
+    "campaign": "Clearance Sale",
+    "topic": "Clearance Sale",
+    "audience": "General Audience",
+    "is_sensitive": false,
+    "prompt": "A professional, visually striking marketing design for a Clearance Sale campaign targeting a general audience, featuring a modern, minimalist composition with bold, high-impact visuals and relevant metaphors. The design should showcase a clean, vibrant color palette, with a focus on strong geometric shapes and dynamic negative space. Suggest text placement areas for minimal, impactful messaging. Suitable for both digital and print use.",
+    "image_path": {
+      "image_path": "/Users/lolo/shared/projects/turing/sprint-4/project-4/web/www/images/public/clearance-sale-campaign.png",
+      "metadata_path": "/Users/lolo/shared/projects/turing/sprint-4/project-4/web/www/images/public/clearance-sale-metadata.json",
+      "folder": "public",
+      "filename": "clearance-sale-campaign.png",
+      "metadata": {
+        "campaign_name": "Clearance Sale",
+        "topic": "Clearance Sale",
+        "audience": "General Audience",
+        "is_sensitive": false,
+        "enhanced_prompt": "A professional, visually striking marketing design for a Clearance Sale campaign targeting a general audience, featuring a modern, minimalist composition with bold, high-impact visuals and relevant metaphors. The design should showcase a clean, vibrant color palette, with a focus on strong geometric shapes and dynamic negative space. Suggest text placement areas for minimal, impactful messaging. Suitable for both digital and print use.",
+        "dalle_revised_prompt": "Create a bold and visually striking marketing design for a 'Clearance Sale' campaign that targets a broad audience. The composition should reflect a modern and minimalist design aesthetic, integrating high-impact visuals and clever, relevant metaphors. Please integrate a brightly colored palette that leans towards cleanliness and vibrancy. A focus should be placed on the creative use of strong geometric shapes and invigorating negative space. Also, consider suggesting areas for text placement to house succinct, impactful messaging. The design should be adaptable and suitable for both digital and print mediums.",
+        "original_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-hG61Y7KtUh3me9ZSfAyW0zr7/user-9VndOxI6frU26Y3xZ3Jie3gz/img-6ULWjlZzrKO2HLgQE5UsbH4E.png?st=2025-09-14T10%3A34%3A18Z&se=2025-09-14T12%3A34%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T19%3A03%3A51Z&ske=2025-09-14T19%3A03%3A51Z&sks=b&skv=2024-08-04&sig=Xu1lzDlTI/gPG7BQJf0Db70MTzfrIR24lvhm9qshlVE%3D",
+        "generated_at": "2025-09-14 21:34:20",
+        "folder": "public",
+        "filename": "clearance-sale-campaign.png",
+        "file_size_bytes": 1251072
+      }
+    },
+    "status": "success"
+  }
+]

@@ -1,0 +1,65 @@
+// Campaign Assistant Memory Management
+digraph memory_management {
+	dpi=300 rankdir=TB size="12,10"
+	node [fontname=Arial fontsize=10 shape=box style="rounded,filled"]
+	edge [fontname=Arial fontsize=9]
+	user_query [label="User Query" fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	langgraph_agent [label="LangGraph Agent
+
+• Query processing
+• Tool selection
+• Response generation" fillcolor="#E3F2FD"]
+	memory_layer [label="Memory Layer
+
+• Context management
+• History retrieval
+• State coordination" fillcolor="#FFEBEE" shape=diamond]
+	short_term_memory [label="Short-Term Memory
+
+• Session context
+• Active conversation
+• Tool usage history
+• Real-time state" fillcolor="#FFF3E0"]
+	long_term_memory [label="Long-Term Memory
+
+• Persistent history
+• Cross-session data
+• User preferences
+• Analytics data" fillcolor="#F3E5F5"]
+	session_state [label="Session State
+
+• Current conversation
+• LangGraph checkpoints
+• Temporary data
+• Active tools" fillcolor="#E0F2F1"]
+	sqlite_database [label="SQLite Database
+
+• conversations.db
+• token_usage table
+• chat_history table
+• user sessions" fillcolor="#E0F2F1"]
+	response_generation [label="Response Generation
+
+• Context-aware responses
+• Memory integration
+• Source attribution
+• Formatted output" fillcolor="#E3F2FD"]
+	user_response [label="User Response" fillcolor="#E8F5E8" shape=ellipse style="filled,bold"]
+	save_to_database [label="Save to Database
+
+• Store conversation
+• Update context
+• Track tokens
+• Maintain history" fillcolor="#E0F2F1"]
+	user_query -> langgraph_agent [label="Process Query"]
+	langgraph_agent -> memory_layer [label="Access Memory"]
+	memory_layer -> short_term_memory [label="Session Context"]
+	memory_layer -> long_term_memory [label="Historical Context"]
+	short_term_memory -> session_state [label="Current State"]
+	long_term_memory -> sqlite_database [label="Persistent Storage"]
+	session_state -> response_generation [label="Context Data"]
+	sqlite_database -> response_generation [label="Historical Data"]
+	response_generation -> user_response [label="Generated Response"]
+	user_response -> save_to_database [label="Store Interaction"]
+	save_to_database -> long_term_memory [label="Update History"]
+}

@@ -1,0 +1,77 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Database SQLite files
+databases/sqlite/
+*.db-shm
+*.db-wal
+
+# Vector database
+databases/chroma/
+
+# Data files
+data/
+
+# Log files
+logs/
+
+# Processed documents
+docs_loader/docs/done/
+
+# Project notes and todos
+TODO.md
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit secrets and config
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Firebase config (if using local config files)
+firebase-config.json
+
+# macOS system files
+.DS_Store
+.DS_Store?
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE files (additional)
+.idea/
+*.sublime-*
+
+# Python cache and bytecode (additional)
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Documentation build
+docs/_build/

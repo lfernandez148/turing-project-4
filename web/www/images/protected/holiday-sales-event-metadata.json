@@ -1,0 +1,13 @@
+{
+  "campaign_name": "Holiday Sales Event",
+  "topic": "Holiday Sales Event",
+  "audience": "Seniors 55+",
+  "is_sensitive": false,
+  "enhanced_prompt": "\"A festive winter wonderland scene with an elegant, warm-toned color palette and inviting atmosphere. Soft lighting and a cozy, comfortable ambiance set the stage for a luxurious holiday sales event tailored to seniors 55+. Subtle visual metaphors like a crackling fireplace, a hot cup of cocoa, and a wrapped gift evoke the joy and nostalgia of the season. The composition is balanced and visually striking, with ample negative space to accommodate minimal, tasteful text overlays.\"",
+  "dalle_revised_prompt": "A holiday-themed winter scene with a warm, rich color palette. The scene is intended for an elegant sales event catered towards seniors of 55+ years, and should provide a comfortable and inviting environment. Key visuals for this image include a softly lit, crackling fireplace, a steaming mug of hot cocoa, and a elegantly wrapped gift to emanate joy and nostalgia associated with the holiday season. The composition of the image should maintain a sense of balance and visual impact, and include ample negative space for potential, minimalist text overlays to be added.",
+  "original_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-hG61Y7KtUh3me9ZSfAyW0zr7/user-9VndOxI6frU26Y3xZ3Jie3gz/img-hn6KsQzeXTemvkQ8DOtOssLq.png?st=2025-09-14T10%3A33%3A59Z&se=2025-09-14T12%3A33%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T21%3A08%3A16Z&ske=2025-09-14T21%3A08%3A16Z&sks=b&skv=2024-08-04&sig=XDAZ9A%2Bd%2BrD%2BBHz7TCYmwiZ%2BdO2VVDEyGrUXGWDQUnc%3D",
+  "generated_at": "2025-09-14 21:34:02",
+  "folder": "public",
+  "filename": "holiday-sales-event-campaign.png",
+  "file_size_bytes": 1828789
+}

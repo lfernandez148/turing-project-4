@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web Server with Protected Images</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Your Static Web Server</h1>
+        </header>
+        <main>
+            <p>Your Flask static file server is running successfully with image protection!</p>
+            
+            <section class="features">
+                <h2>Features:</h2>
+                <ul>
+                    <li>✅ Public static files served from <code>web/www/</code></li>
+                    <li>🔒 Protected images require authentication</li>
+                    <li>🔑 Token-based authentication system</li>
+                    <li>📁 Organized folder structure</li>
+                </ul>
+            </section>
+
+            <section class="image-structure">
+                <h2>Image Structure:</h2>
+                <div class="folder-structure">
+                    <pre>
+web/www/images/
+├── public/          → Publicly accessible
+│   └── sample-logo.png
+└── protected/       → Requires authentication
+    └── confidential-data.png
+                    </pre>
+                </div>
+            </section>
+
+            <section class="api-endpoints">
+                <h2>API Endpoints:</h2>
+                <div class="endpoint">
+                    <strong>Public Images:</strong> <code>/images/public/filename.jpg</code>
+                </div>
+                <div class="endpoint">
+                    <strong>Protected Images:</strong> <code>/images/protected/filename.jpg</code>
+                    <small>(Requires Authorization header)</small>
+                </div>
+                <div class="endpoint">
+                    <strong>Verify Token:</strong> <code>/auth/verify</code>
+                </div>
+            </section>
+
+            <section class="curl-examples">
+                <h2>Example Usage:</h2>
+                <div>
+                    <strong>Public Image (No Auth):</strong>
+                    <pre>curl http://localhost:8080/images/public/sample-logo.png</pre>
+                </div>
+                <div>
+                    <strong>Protected Image (With Auth):</strong>
+                    <pre>curl -H "Authorization: Bearer your-secret-token" \
+     http://localhost:8080/images/protected/confidential-data.png</pre>
+                </div>
+                <div>
+                    <strong>Verify Token:</strong>
+                    <pre>curl -H "Authorization: Bearer your-secret-token" \
+     http://localhost:8080/auth/verify</pre>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
