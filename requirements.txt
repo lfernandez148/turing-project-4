@@ -25,3 +25,6 @@ huggingface-hub>=0.18.0
 # Evaluation
 ragas>=0.0.22
 datasets>=2.14.5
+
+# MySQL
+mysql-connector-python==9.4.0
