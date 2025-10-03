@@ -253,41 +253,6 @@ The diagram above shows the complete LangGraph workflow with three main processi
 
 ---
 
-## 🔄 Data Flow
-
-![Data Flow](documentation/diagrams/data_flow.png)
-
-### Enhanced Process Flow
-
-1. **User Query** → Streamlit UI (Frontend Layer)
-2. **Authentication** → Firebase Auth (Secure Access)
-3. **AI Agent Processing** → LangGraph Orchestration System
-   - Tool Selection → Intelligent routing and data sourcing
-   - LangChain Integration → OpenAI/LM Studio Processing
-   - Response Generation → Contextual Response Creation
-4. **Data Access** → FastAPI Endpoints & Vector DB
-5. **UI Display** → Results with Source Attribution
-
-### Streamlined Architecture Features
-
-✅ **Firebase Authentication**: Secure user management and session handling
-✅ **LangGraph AI Agent**: Advanced graph-based workflow orchestration
-✅ **Tool Selection**: Intelligent routing to appropriate data sources
-✅ **Vector DB Integration**: Semantic search with ChromaDB
-✅ **API Layer**: Clean separation with FastAPI endpoints
-✅ **System Services**: Comprehensive monitoring and resource management
-
-### Data Sources Integration
-
-- **Firebase Auth**: User authentication and session management
-- **FastAPI Endpoints**: Structured campaign metrics and analytics
-- **Vector DB**: ChromaDB for semantic document search
-- **AI Agent Layer**: LangGraph orchestration with Tool Selection and Response Generation
-- **System Services**: SQLite storage, logging, memory management, and token tracking
-- **Streamlit Frontend**: Interactive user interface and response display
-
----
-
 ## 🛠️ Tool Selection
 
 ![Tool Selection Flow](documentation/diagrams/tool_selection_flow.png)
