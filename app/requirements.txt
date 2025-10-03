@@ -30,3 +30,6 @@ requests>=2.31.0
 
 # MySQL
 mysql-connector-python==9.4.0
+
+# Others
+ragas==0.3.5
