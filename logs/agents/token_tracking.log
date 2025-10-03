@@ -1,0 +1,245 @@
+2025-09-28 09:10:59 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:10:59 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:10:59 | INFO | AGENT | Using OpenAI
+2025-09-28 09:10:59 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:11:39 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:11:39 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:11:39 | INFO | AGENT | Using OpenAI
+2025-09-28 09:11:39 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:11:39 | INFO | AGENT | Connecting to ChromaDB at localhost:8030
+2025-09-28 09:11:40 | INFO | AGENT | Successfully connected to ChromaDB
+2025-09-28 09:11:40 | INFO | AGENT | Processing query with LangGraph agent: Show executive summary for campaign 101 [Thread: default, User: None]
+2025-09-28 09:11:40 | INFO | AGENT | Thread config: {'configurable': {'thread_id': 'default', 'user_id': 'anonymous'}}
+2025-09-28 09:11:40 | INFO | AGENT | Loaded 0 text messages from chat history for thread default
+2025-09-28 09:11:40 | INFO | AGENT | No conversation history found
+2025-09-28 09:11:40 | INFO | AGENT | Initial messages count: 2 (including 0 from history)
+2025-09-28 09:11:40 | INFO | AGENT | Complete message structure being sent to agent:
+2025-09-28 09:11:40 | INFO | AGENT |   1. SystemMessage: You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, care...
+2025-09-28 09:11:40 | INFO | AGENT |   2. HumanMessage: Show executive summary for campaign 101
+2025-09-28 09:11:40 | INFO | AGENT | Before: app.invoke with populated history
+2025-09-28 09:11:40 | INFO | AGENT | 
+
+ messages:
+ [HumanMessage(content='Provide summary statistics for all campaigns', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_Ksd1lDrvghqCKMiVZeZpUhQT', 'function': {'arguments': '{}', 'name': 'get_campaign_summary_stats'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 12, 'prompt_tokens': 1544, 'total_tokens': 1556, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKCoG5cqt5dUGOt6zA04D7wISGYLa', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--379a8a8d-8182-428d-97ba-f633e2c51c52-0', tool_calls=[{'name': 'get_campaign_summary_stats', 'args': {}, 'id': 'call_Ksd1lDrvghqCKMiVZeZpUhQT', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1544, 'output_tokens': 12, 'total_tokens': 1556, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Campaign Summary Statistics:\\n- Total Campaigns: 1,000\\n- Average Conversion Rate: 3.77%\\n- Average Open Rate: 22.51%\\n- Average Click Rate: 7.41%\\n- Total Conversions: 4,328,048\\n- Total Opens: 25,841,091\\n- Total Clicks: 8,500,460', 'source': 'Campaign Database (campaigns table)'}", name='get_campaign_summary_stats', tool_call_id='call_Ksd1lDrvghqCKMiVZeZpUhQT'), AIMessage(content='Here are the summary statistics for all campaigns:\n\n- **Total Campaigns:** 1,000\n- **Average Conversion Rate:** 3.77%\n- **Average Open Rate:** 22.51%\n- **Average Click Rate:** 7.41%\n- **Total Conversions:** 4,328,048\n- **Total Opens:** 25,841,091\n- **Total Clicks:** 8,500,460\n\nIf you need more detailed information or have any specific questions about the campaign statistics, feel free to ask!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 113, 'prompt_tokens': 1671, 'total_tokens': 1784, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKCoGJa09eB8osDMwaFGevUQ5Am7P', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--f256cd3b-b902-47ab-a2de-37528b2820e9-0', usage_metadata={'input_tokens': 1671, 'output_tokens': 113, 'total_tokens': 1784, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), SystemMessage(content="You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, carefully review our previous conversation to see if you already have the information needed. If the user is asking about something we discussed before, refer to that information and provide a response based on our chat history. Examples of when to use conversation history: - 'What was that campaign we discussed?' - Check our previous messages - 'Can you show me those results again?' - Look for previous data in our chat - 'What did you say about campaign performance?' - Reference previous responses Only use the campaign data tools when: - You need fresh/updated data - The question asks for information not previously discussed - You need to perform new analysis or generate new charts/tables Always be polite and professional. If you cannot find information in our history or through tools, respond with: I don't have any information on that.", additional_kwargs={}, response_metadata={}), HumanMessage(content='Show executive summary for campaign 101', additional_kwargs={}, response_metadata={})]
+2025-09-28 09:11:40 | INFO | AGENT | call_model() - Processing 6 messages for User: None, Thread: default
+2025-09-28 09:11:40 | INFO | AGENT | Message types: ['HumanMessage', 'AIMessage', 'ToolMessage', 'AIMessage', 'SystemMessage', 'HumanMessage']
+2025-09-28 09:11:40 | INFO | AGENT | Data: {}
+2025-09-28 09:11:42 | INFO | AGENT | Tokens - Input: 1236, Output: 19
+2025-09-28 09:11:42 | INFO | AGENT | call_tools() - Thread: default
+2025-09-28 09:11:42 | INFO | AGENT | Searching campaign documents
+2025-09-28 09:11:42 | INFO | AGENT | Before calling get_chroma_client()
+2025-09-28 09:11:42 | INFO | AGENT | Connecting to ChromaDB at localhost:8030
+2025-09-28 09:11:42 | INFO | AGENT | Successfully connected to ChromaDB
+2025-09-28 09:11:42 | INFO | AGENT | After A calling get_chroma_client()
+2025-09-28 09:11:42 | INFO | AGENT | After B calling get_chroma_client()
+2025-09-28 09:11:42 | INFO | AGENT | After C calling get_chroma_client()
+2025-09-28 09:11:42 | INFO | AGENT | Found 3 relevant documents
+2025-09-28 09:11:42 | INFO | AGENT | source_info: Vector Database (/Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf)
+2025-09-28 09:11:42 | INFO | AGENT | 
+
+ messages:
+ [HumanMessage(content='Provide summary statistics for all campaigns', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_Ksd1lDrvghqCKMiVZeZpUhQT', 'function': {'arguments': '{}', 'name': 'get_campaign_summary_stats'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 12, 'prompt_tokens': 1544, 'total_tokens': 1556, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKCoG5cqt5dUGOt6zA04D7wISGYLa', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--379a8a8d-8182-428d-97ba-f633e2c51c52-0', tool_calls=[{'name': 'get_campaign_summary_stats', 'args': {}, 'id': 'call_Ksd1lDrvghqCKMiVZeZpUhQT', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1544, 'output_tokens': 12, 'total_tokens': 1556, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Campaign Summary Statistics:\\n- Total Campaigns: 1,000\\n- Average Conversion Rate: 3.77%\\n- Average Open Rate: 22.51%\\n- Average Click Rate: 7.41%\\n- Total Conversions: 4,328,048\\n- Total Opens: 25,841,091\\n- Total Clicks: 8,500,460', 'source': 'Campaign Database (campaigns table)'}", name='get_campaign_summary_stats', tool_call_id='call_Ksd1lDrvghqCKMiVZeZpUhQT'), AIMessage(content='Here are the summary statistics for all campaigns:\n\n- **Total Campaigns:** 1,000\n- **Average Conversion Rate:** 3.77%\n- **Average Open Rate:** 22.51%\n- **Average Click Rate:** 7.41%\n- **Total Conversions:** 4,328,048\n- **Total Opens:** 25,841,091\n- **Total Clicks:** 8,500,460\n\nIf you need more detailed information or have any specific questions about the campaign statistics, feel free to ask!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 113, 'prompt_tokens': 1671, 'total_tokens': 1784, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKCoGJa09eB8osDMwaFGevUQ5Am7P', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--f256cd3b-b902-47ab-a2de-37528b2820e9-0', usage_metadata={'input_tokens': 1671, 'output_tokens': 113, 'total_tokens': 1784, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), SystemMessage(content="You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, carefully review our previous conversation to see if you already have the information needed. If the user is asking about something we discussed before, refer to that information and provide a response based on our chat history. Examples of when to use conversation history: - 'What was that campaign we discussed?' - Check our previous messages - 'Can you show me those results again?' - Look for previous data in our chat - 'What did you say about campaign performance?' - Reference previous responses Only use the campaign data tools when: - You need fresh/updated data - The question asks for information not previously discussed - You need to perform new analysis or generate new charts/tables Always be polite and professional. If you cannot find information in our history or through tools, respond with: I don't have any information on that.", additional_kwargs={}, response_metadata={}), HumanMessage(content='Show executive summary for campaign 101', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'function': {'arguments': '{"query":"executive summary campaign 101"}', 'name': 'search_documents'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 19, 'prompt_tokens': 1236, 'total_tokens': 1255, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMn2ABOhdjilCxtEfo6dAOwidpm', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--01cdfcc2-abc1-47f8-b30b-2aca8c38a6c3-0', tool_calls=[{'name': 'search_documents', 'args': {'query': 'executive summary campaign 101'}, 'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1236, 'output_tokens': 19, 'total_tokens': 1255, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Found relevant campaign information:\\n\\nCampaign Overview\\nCampaign Id\\n101\\nCampaign Date\\n2025-02-03\\nCampaign Topic\\nSchool Supplies Promo\\nCustomer Segment\\nPrevious Customers\\nAudience Size\\n170,987\\nControl Group Size\\n12,772\\nExecutive Summary\\nThe Campaign 101 targeted Previous Customers with the objective to promote school supplies\\npromo. Out of an audience size of 170,987, emails were sent to 158,215 contacts, with a control group\\nof 12,772. The campaign achieved an open rate of 24.11%, click rate of 10.86%, and a conversion rate\\nof 6.27%, signifying strong engagement and effectiveness.\\nPerformance Insights\\n- The open rate of 24.11% indicates strong interest among the target audience. - An open to click rate of 45.02% suggests effective email content and calls-to-action. - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.', 'source': 'Vector Database (/Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf)'}", name='search_documents', tool_call_id='call_GreB5HpfA0S0G4cQwBauuUjb')]
+2025-09-28 09:11:42 | INFO | AGENT | call_model() - Processing 8 messages for User: None, Thread: default
+2025-09-28 09:11:42 | INFO | AGENT | Message types: ['HumanMessage', 'AIMessage', 'ToolMessage', 'AIMessage', 'SystemMessage', 'HumanMessage', 'AIMessage', 'ToolMessage']
+2025-09-28 09:11:42 | INFO | AGENT | Data: {}
+2025-09-28 09:11:44 | INFO | AGENT | Tokens - Input: 1516, Output: 262
+2025-09-28 09:11:44 | INFO | AGENT | After: app.invoke with populated history
+2025-09-28 09:11:44 | INFO | AGENT | Token usage saved - User: anonymous, Thread: default, Total: 3033
+2025-09-28 09:11:44 | INFO | AGENT | Final message content: Here is the executive summary for Campaign 101:
+
+- **Campaign Overview:**
+  - **Campaign ID:** 101
+  - **Campaign Date:** 2025-02-03
+  - **Campaign Topic:** School Supplies Promo
+  - **Customer Segment:** Previous Customers
+  - **Audience Size:** 170,987
+  - **Control Group Size:** 12,772
+
+- **Executive Summary:**
+  - The Campaign 101 targeted Previous Customers to promote a school supplies promo.
+  - Emails were sent to 158,215 contacts out of an audience size of 170,987, with a control group of 12,772.
+  - The campaign achieved:
+    - Open Rate: 24.11%
+    - Click Rate: 10.86%
+    - Conversion Rate: 6.27%
+
+- **Performance Insights:**
+  - The open rate of 24.11% indicates strong interest among the target audience.
+  - An open to click rate of 45.02% suggests effective email content and calls-to-action.
+  - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.
+
+If you need more details or have any specific questions about Campaign 101, feel free to ask!
+2025-09-28 09:11:44 | INFO | AGENT | Processing query with LangGraph agent: Provide summary statistics for all campaigns [Thread: default, User: None]
+2025-09-28 09:11:44 | INFO | AGENT | Thread config: {'configurable': {'thread_id': 'default', 'user_id': 'anonymous'}}
+2025-09-28 09:11:44 | INFO | AGENT | Loaded 0 text messages from chat history for thread default
+2025-09-28 09:11:44 | INFO | AGENT | No conversation history found
+2025-09-28 09:11:44 | INFO | AGENT | Initial messages count: 2 (including 0 from history)
+2025-09-28 09:11:44 | INFO | AGENT | Complete message structure being sent to agent:
+2025-09-28 09:11:44 | INFO | AGENT |   1. SystemMessage: You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, care...
+2025-09-28 09:11:44 | INFO | AGENT |   2. HumanMessage: Provide summary statistics for all campaigns
+2025-09-28 09:11:44 | INFO | AGENT | Before: app.invoke with populated history
+2025-09-28 09:11:44 | INFO | AGENT | 
+
+ messages:
+ [HumanMessage(content='Show executive summary for campaign 101', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'function': {'arguments': '{"query":"executive summary campaign 101"}', 'name': 'search_documents'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 19, 'prompt_tokens': 1236, 'total_tokens': 1255, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMn2ABOhdjilCxtEfo6dAOwidpm', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--01cdfcc2-abc1-47f8-b30b-2aca8c38a6c3-0', tool_calls=[{'name': 'search_documents', 'args': {'query': 'executive summary campaign 101'}, 'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1236, 'output_tokens': 19, 'total_tokens': 1255, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Found relevant campaign information:\\n\\nCampaign Overview\\nCampaign Id\\n101\\nCampaign Date\\n2025-02-03\\nCampaign Topic\\nSchool Supplies Promo\\nCustomer Segment\\nPrevious Customers\\nAudience Size\\n170,987\\nControl Group Size\\n12,772\\nExecutive Summary\\nThe Campaign 101 targeted Previous Customers with the objective to promote school supplies\\npromo. Out of an audience size of 170,987, emails were sent to 158,215 contacts, with a control group\\nof 12,772. The campaign achieved an open rate of 24.11%, click rate of 10.86%, and a conversion rate\\nof 6.27%, signifying strong engagement and effectiveness.\\nPerformance Insights\\n- The open rate of 24.11% indicates strong interest among the target audience. - An open to click rate of 45.02% suggests effective email content and calls-to-action. - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.', 'source': 'Vector Database (/Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf)'}", name='search_documents', tool_call_id='call_GreB5HpfA0S0G4cQwBauuUjb'), AIMessage(content='Here is the executive summary for Campaign 101:\n\n- **Campaign Overview:**\n  - **Campaign ID:** 101\n  - **Campaign Date:** 2025-02-03\n  - **Campaign Topic:** School Supplies Promo\n  - **Customer Segment:** Previous Customers\n  - **Audience Size:** 170,987\n  - **Control Group Size:** 12,772\n\n- **Executive Summary:**\n  - The Campaign 101 targeted Previous Customers to promote a school supplies promo.\n  - Emails were sent to 158,215 contacts out of an audience size of 170,987, with a control group of 12,772.\n  - The campaign achieved:\n    - Open Rate: 24.11%\n    - Click Rate: 10.86%\n    - Conversion Rate: 6.27%\n\n- **Performance Insights:**\n  - The open rate of 24.11% indicates strong interest among the target audience.\n  - An open to click rate of 45.02% suggests effective email content and calls-to-action.\n  - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.\n\nIf you need more details or have any specific questions about Campaign 101, feel free to ask!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 262, 'prompt_tokens': 1516, 'total_tokens': 1778, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMpax2cORPpoyFBWwcHc298gDGT', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--caf518ec-607b-41dd-a1c9-843500e7b5aa-0', usage_metadata={'input_tokens': 1516, 'output_tokens': 262, 'total_tokens': 1778, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), SystemMessage(content="You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, carefully review our previous conversation to see if you already have the information needed. If the user is asking about something we discussed before, refer to that information and provide a response based on our chat history. Examples of when to use conversation history: - 'What was that campaign we discussed?' - Check our previous messages - 'Can you show me those results again?' - Look for previous data in our chat - 'What did you say about campaign performance?' - Reference previous responses Only use the campaign data tools when: - You need fresh/updated data - The question asks for information not previously discussed - You need to perform new analysis or generate new charts/tables Always be polite and professional. If you cannot find information in our history or through tools, respond with: I don't have any information on that.", additional_kwargs={}, response_metadata={}), HumanMessage(content='Provide summary statistics for all campaigns', additional_kwargs={}, response_metadata={})]
+2025-09-28 09:11:44 | INFO | AGENT | call_model() - Processing 6 messages for User: None, Thread: default
+2025-09-28 09:11:44 | INFO | AGENT | Message types: ['HumanMessage', 'AIMessage', 'ToolMessage', 'AIMessage', 'SystemMessage', 'HumanMessage']
+2025-09-28 09:11:44 | INFO | AGENT | Data: {}
+2025-09-28 09:11:46 | INFO | AGENT | Tokens - Input: 1538, Output: 12
+2025-09-28 09:11:46 | INFO | AGENT | call_tools() - Thread: default
+2025-09-28 09:11:46 | INFO | AGENT | Getting campaign summary statistics
+2025-09-28 09:11:46 | INFO | AGENT | 
+
+ messages:
+ [HumanMessage(content='Show executive summary for campaign 101', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'function': {'arguments': '{"query":"executive summary campaign 101"}', 'name': 'search_documents'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 19, 'prompt_tokens': 1236, 'total_tokens': 1255, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMn2ABOhdjilCxtEfo6dAOwidpm', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--01cdfcc2-abc1-47f8-b30b-2aca8c38a6c3-0', tool_calls=[{'name': 'search_documents', 'args': {'query': 'executive summary campaign 101'}, 'id': 'call_GreB5HpfA0S0G4cQwBauuUjb', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1236, 'output_tokens': 19, 'total_tokens': 1255, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Found relevant campaign information:\\n\\nCampaign Overview\\nCampaign Id\\n101\\nCampaign Date\\n2025-02-03\\nCampaign Topic\\nSchool Supplies Promo\\nCustomer Segment\\nPrevious Customers\\nAudience Size\\n170,987\\nControl Group Size\\n12,772\\nExecutive Summary\\nThe Campaign 101 targeted Previous Customers with the objective to promote school supplies\\npromo. Out of an audience size of 170,987, emails were sent to 158,215 contacts, with a control group\\nof 12,772. The campaign achieved an open rate of 24.11%, click rate of 10.86%, and a conversion rate\\nof 6.27%, signifying strong engagement and effectiveness.\\nPerformance Insights\\n- The open rate of 24.11% indicates strong interest among the target audience. - An open to click rate of 45.02% suggests effective email content and calls-to-action. - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.', 'source': 'Vector Database (/Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf)'}", name='search_documents', tool_call_id='call_GreB5HpfA0S0G4cQwBauuUjb'), AIMessage(content='Here is the executive summary for Campaign 101:\n\n- **Campaign Overview:**\n  - **Campaign ID:** 101\n  - **Campaign Date:** 2025-02-03\n  - **Campaign Topic:** School Supplies Promo\n  - **Customer Segment:** Previous Customers\n  - **Audience Size:** 170,987\n  - **Control Group Size:** 12,772\n\n- **Executive Summary:**\n  - The Campaign 101 targeted Previous Customers to promote a school supplies promo.\n  - Emails were sent to 158,215 contacts out of an audience size of 170,987, with a control group of 12,772.\n  - The campaign achieved:\n    - Open Rate: 24.11%\n    - Click Rate: 10.86%\n    - Conversion Rate: 6.27%\n\n- **Performance Insights:**\n  - The open rate of 24.11% indicates strong interest among the target audience.\n  - An open to click rate of 45.02% suggests effective email content and calls-to-action.\n  - The conversion rate of 6.27% reflects well on the campaign’s ability to drive results.\n\nIf you need more details or have any specific questions about Campaign 101, feel free to ask!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 262, 'prompt_tokens': 1516, 'total_tokens': 1778, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMpax2cORPpoyFBWwcHc298gDGT', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--caf518ec-607b-41dd-a1c9-843500e7b5aa-0', usage_metadata={'input_tokens': 1516, 'output_tokens': 262, 'total_tokens': 1778, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), SystemMessage(content="You are a Campaign Performance Assistant. You have access to our conversation history and campaign data tools. IMPORTANT: Before using any tools, carefully review our previous conversation to see if you already have the information needed. If the user is asking about something we discussed before, refer to that information and provide a response based on our chat history. Examples of when to use conversation history: - 'What was that campaign we discussed?' - Check our previous messages - 'Can you show me those results again?' - Look for previous data in our chat - 'What did you say about campaign performance?' - Reference previous responses Only use the campaign data tools when: - You need fresh/updated data - The question asks for information not previously discussed - You need to perform new analysis or generate new charts/tables Always be polite and professional. If you cannot find information in our history or through tools, respond with: I don't have any information on that.", additional_kwargs={}, response_metadata={}), HumanMessage(content='Provide summary statistics for all campaigns', additional_kwargs={}, response_metadata={}), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_CxYZEI8ZcyYNLPHovscVhGxd', 'function': {'arguments': '{}', 'name': 'get_campaign_summary_stats'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 12, 'prompt_tokens': 1538, 'total_tokens': 1550, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-CKYMrbrfU3mTtVuvB97Q3Bg3tHKCJ', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--4d127545-5a2a-48fb-8d5b-1f5d387d047e-0', tool_calls=[{'name': 'get_campaign_summary_stats', 'args': {}, 'id': 'call_CxYZEI8ZcyYNLPHovscVhGxd', 'type': 'tool_call'}], usage_metadata={'input_tokens': 1538, 'output_tokens': 12, 'total_tokens': 1550, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="{'type': 'text', 'message': 'Campaign Summary Statistics:\\n- Total Campaigns: 1,000\\n- Average Conversion Rate: 3.77%\\n- Average Open Rate: 22.51%\\n- Average Click Rate: 7.41%\\n- Total Conversions: 4,328,048\\n- Total Opens: 25,841,091\\n- Total Clicks: 8,500,460', 'source': 'Campaign Database (campaigns table)'}", name='get_campaign_summary_stats', tool_call_id='call_CxYZEI8ZcyYNLPHovscVhGxd')]
+2025-09-28 09:11:46 | INFO | AGENT | call_model() - Processing 8 messages for User: None, Thread: default
+2025-09-28 09:11:46 | INFO | AGENT | Message types: ['HumanMessage', 'AIMessage', 'ToolMessage', 'AIMessage', 'SystemMessage', 'HumanMessage', 'AIMessage', 'ToolMessage']
+2025-09-28 09:11:46 | INFO | AGENT | Data: {}
+2025-09-28 09:11:47 | INFO | AGENT | Tokens - Input: 1665, Output: 113
+2025-09-28 09:11:47 | INFO | AGENT | After: app.invoke with populated history
+2025-09-28 09:11:47 | INFO | AGENT | Token usage saved - User: anonymous, Thread: default, Total: 3328
+2025-09-28 09:11:47 | INFO | AGENT | Final message content: Here are the summary statistics for all campaigns:
+
+- **Total Campaigns:** 1,000
+- **Average Conversion Rate:** 3.77%
+- **Average Open Rate:** 22.51%
+- **Average Click Rate:** 7.41%
+- **Total Conversions:** 4,328,048
+- **Total Opens:** 25,841,091
+- **Total Clicks:** 8,500,460
+
+If you need more detailed information or have any specific questions about the campaign statistics, feel free to ask!
+2025-09-28 09:12:37 | INFO | AGENT | Connecting to MySQL at localhost:3306
+2025-09-28 09:12:37 | INFO | AGENT | Successfully connected to MySQL
+2025-09-28 09:12:52 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:12:52 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:12:52 | INFO | AGENT | Using OpenAI
+2025-09-28 09:12:52 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:16:56 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:16:56 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:16:56 | INFO | AGENT | Using OpenAI
+2025-09-28 09:16:57 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:29:33 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:29:33 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:29:33 | INFO | AGENT | Using OpenAI
+2025-09-28 09:29:33 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:43:56 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:43:56 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:43:56 | INFO | AGENT | Using OpenAI
+2025-09-28 09:43:56 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:53:32 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:53:32 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:53:32 | INFO | AGENT | Using OpenAI
+2025-09-28 09:53:32 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 09:58:18 | INFO | AGENT | LangSmith enabled
+2025-09-28 09:58:18 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 09:58:18 | INFO | AGENT | Using OpenAI
+2025-09-28 09:58:18 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:19:40 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:19:40 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:19:40 | INFO | AGENT | Using OpenAI
+2025-09-28 13:19:40 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:26:22 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:26:22 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:26:22 | INFO | AGENT | Using OpenAI
+2025-09-28 13:26:22 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:38:08 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:38:08 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:38:08 | INFO | AGENT | Using OpenAI
+2025-09-28 13:38:08 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:48:16 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:48:16 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:48:16 | INFO | AGENT | Using OpenAI
+2025-09-28 13:48:16 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:52:24 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:52:24 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:52:24 | INFO | AGENT | Using OpenAI
+2025-09-28 13:52:24 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:53:54 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:53:54 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:53:54 | INFO | AGENT | Using OpenAI
+2025-09-28 13:53:54 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 13:58:54 | INFO | AGENT | LangSmith enabled
+2025-09-28 13:58:54 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 13:58:54 | INFO | AGENT | Using OpenAI
+2025-09-28 13:58:54 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 14:04:23 | INFO | AGENT | LangSmith enabled
+2025-09-28 14:04:23 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 14:04:23 | INFO | AGENT | Using OpenAI
+2025-09-28 14:04:23 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 14:10:45 | INFO | AGENT | LangSmith enabled
+2025-09-28 14:10:45 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 14:10:45 | INFO | AGENT | Using OpenAI
+2025-09-28 14:10:45 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 14:13:34 | INFO | AGENT | LangSmith enabled
+2025-09-28 14:13:34 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 14:13:34 | INFO | AGENT | Using OpenAI
+2025-09-28 14:13:34 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-09-28 14:17:11 | INFO | AGENT | LangSmith enabled
+2025-09-28 14:17:11 | INFO | AGENT | LangSmith tracing enabled
+2025-09-28 14:17:11 | INFO | AGENT | Using OpenAI
+2025-09-28 14:17:11 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:08:05 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:08:05 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:08:05 | INFO | AGENT | Using OpenAI
+2025-10-02 17:08:05 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:26:50 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:26:50 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:26:50 | INFO | AGENT | Using OpenAI
+2025-10-02 17:26:50 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:39:34 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:39:34 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:39:34 | INFO | AGENT | Using OpenAI
+2025-10-02 17:39:34 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:43:20 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:43:20 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:43:20 | INFO | AGENT | Using OpenAI
+2025-10-02 17:43:20 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:49:20 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:49:20 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:49:20 | INFO | AGENT | Using OpenAI
+2025-10-02 17:49:20 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:52:38 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:52:38 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:52:38 | INFO | AGENT | Using OpenAI
+2025-10-02 17:52:38 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:54:34 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:54:34 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:54:34 | INFO | AGENT | Using OpenAI
+2025-10-02 17:54:34 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 17:55:47 | INFO | AGENT | LangSmith enabled
+2025-10-02 17:55:47 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 17:55:47 | INFO | AGENT | Using OpenAI
+2025-10-02 17:55:47 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:26:56 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:26:56 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:26:56 | INFO | AGENT | Using OpenAI
+2025-10-02 18:26:56 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:32:38 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:32:38 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:32:38 | INFO | AGENT | Using OpenAI
+2025-10-02 18:32:38 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:35:29 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:35:29 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:35:29 | INFO | AGENT | Using OpenAI
+2025-10-02 18:35:29 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:41:25 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:41:25 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:41:25 | INFO | AGENT | Using OpenAI
+2025-10-02 18:41:25 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:41:51 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:41:51 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:41:51 | INFO | AGENT | Using OpenAI
+2025-10-02 18:41:51 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:45:49 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:45:49 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:45:49 | INFO | AGENT | Using OpenAI
+2025-10-02 18:45:49 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 18:55:09 | INFO | AGENT | LangSmith enabled
+2025-10-02 18:55:09 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 18:55:09 | INFO | AGENT | Using OpenAI
+2025-10-02 18:55:09 | INFO | AGENT | Token tracking and chat history tables initialized
+2025-10-02 19:00:44 | INFO | AGENT | LangSmith enabled
+2025-10-02 19:00:44 | INFO | AGENT | LangSmith tracing enabled
+2025-10-02 19:00:44 | INFO | AGENT | Using OpenAI
+2025-10-02 19:00:44 | INFO | AGENT | Token tracking and chat history tables initialized

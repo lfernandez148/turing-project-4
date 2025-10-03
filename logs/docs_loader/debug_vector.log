@@ -1,0 +1,25 @@
+2025-07-30 21:10:01.459 | INFO     | __main__:debug_vector_search:40 - 
+==================================================
+2025-07-30 21:10:01.460 | INFO     | __main__:debug_vector_search:41 - Testing query: 'executive summary for campaign 101'
+2025-07-30 21:10:01.460 | INFO     | __main__:debug_vector_search:42 - ==================================================
+2025-07-30 21:10:01.872 | INFO     | __main__:debug_vector_search:47 - Found 0 documents
+2025-07-30 21:10:01.873 | INFO     | __main__:debug_vector_search:40 - 
+==================================================
+2025-07-30 21:10:01.873 | INFO     | __main__:debug_vector_search:41 - Testing query: 'campaign 101'
+2025-07-30 21:10:01.873 | INFO     | __main__:debug_vector_search:42 - ==================================================
+2025-07-30 21:10:01.953 | INFO     | __main__:debug_vector_search:47 - Found 0 documents
+2025-07-30 21:10:01.953 | INFO     | __main__:debug_vector_search:40 - 
+==================================================
+2025-07-30 21:10:01.953 | INFO     | __main__:debug_vector_search:41 - Testing query: 'executive summary'
+2025-07-30 21:10:01.953 | INFO     | __main__:debug_vector_search:42 - ==================================================
+2025-07-30 21:10:01.965 | INFO     | __main__:debug_vector_search:47 - Found 0 documents
+2025-07-30 21:10:01.965 | INFO     | __main__:debug_vector_search:40 - 
+==================================================
+2025-07-30 21:10:01.965 | INFO     | __main__:debug_vector_search:41 - Testing query: 'performance metrics'
+2025-07-30 21:10:01.965 | INFO     | __main__:debug_vector_search:42 - ==================================================
+2025-07-30 21:10:02.045 | INFO     | __main__:debug_vector_search:47 - Found 0 documents
+2025-07-30 21:10:02.045 | INFO     | __main__:debug_vector_search:40 - 
+==================================================
+2025-07-30 21:10:02.045 | INFO     | __main__:debug_vector_search:41 - Testing query: 'conversion rate'
+2025-07-30 21:10:02.045 | INFO     | __main__:debug_vector_search:42 - ==================================================
+2025-07-30 21:10:02.057 | INFO     | __main__:debug_vector_search:47 - Found 0 documents

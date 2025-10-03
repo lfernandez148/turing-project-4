@@ -1,0 +1,6 @@
+2025-09-20 12:13:24.418 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:13:24.420 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:17:58.971 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 12:23:25.891 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:23:25.892 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:23:43.950 | INFO     | __main__:<module>:246 - Shutting down document watcher.

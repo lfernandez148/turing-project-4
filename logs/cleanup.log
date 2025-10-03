@@ -1,0 +1,9 @@
+2025-09-20 12:12:41.207 | INFO     | __main__:cleanup_chroma:26 - Starting ChromaDB cleanup process
+2025-09-20 12:12:41.209 | ERROR    | __main__:cleanup_chroma:51 - Error cleaning up ChromaDB: 1 validation error for Settings
+chroma_server_port
+  extra fields not permitted (type=value_error.extra)
+2025-09-20 12:13:08.803 | INFO     | __main__:cleanup_chroma:26 - Starting ChromaDB cleanup process
+2025-09-20 12:13:09.040 | INFO     | __main__:cleanup_chroma:33 - Resetting ChromaDB collections
+2025-09-20 12:13:09.044 | SUCCESS  | __main__:cleanup_chroma:36 - All ChromaDB collections reset
+2025-09-20 12:13:09.044 | INFO     | __main__:cleanup_chroma:46 - Tracking file not found: processed_files.csv
+2025-09-20 12:13:09.044 | SUCCESS  | __main__:cleanup_chroma:48 - Cleanup complete! Ready for fresh document ingestion.

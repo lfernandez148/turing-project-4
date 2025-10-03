@@ -1,0 +1,8 @@
+2025-08-28 19:57:33.241 | INFO     | __main__:cleanup_chroma:21 - Starting ChromaDB cleanup process
+2025-08-28 19:57:33.242 | INFO     | __main__:cleanup_chroma:31 - ChromaDB directory not found: ../chroma_db
+2025-08-28 19:57:33.242 | INFO     | __main__:cleanup_chroma:42 - Tracking file not found: processed_files.csv
+2025-08-28 19:57:33.242 | SUCCESS  | __main__:cleanup_chroma:44 - Cleanup complete! Ready for fresh document ingestion.
+2025-08-30 19:04:44.179 | INFO     | __main__:cleanup_chroma:21 - Starting ChromaDB cleanup process
+2025-08-30 19:04:44.181 | SUCCESS  | __main__:cleanup_chroma:27 - Removed ChromaDB directory: ../chroma_db
+2025-08-30 19:04:44.182 | SUCCESS  | __main__:cleanup_chroma:38 - Removed tracking file: processed_files.csv
+2025-08-30 19:04:44.182 | SUCCESS  | __main__:cleanup_chroma:44 - Cleanup complete! Ready for fresh document ingestion.

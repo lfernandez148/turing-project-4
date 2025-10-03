@@ -26,9 +26,6 @@ databases/chroma/
 # Data files
 data/
 
-# Log files
-logs/
-
 # Processed documents
 docs_loader/docs/done/
 

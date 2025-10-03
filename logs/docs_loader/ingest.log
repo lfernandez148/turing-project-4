@@ -1,0 +1,247 @@
+2025-09-20 12:18:19.718 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:18:19.719 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:18:30.091 | INFO     | __main__:on_created:121 - Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-20 12:18:30.092 | INFO     | __main__:on_created:125 - Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-09-20 12:18:35.775 | INFO     | __main__:on_created:121 - Skipping already processed file: campaign_1_summary_report.docx
+2025-09-20 12:18:35.775 | INFO     | __main__:on_created:125 - Moved campaign_1_summary_report.docx to done folder (already processed)
+2025-09-20 12:18:35.807 | INFO     | __main__:on_created:121 - Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-20 12:18:35.808 | INFO     | __main__:on_created:125 - Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-09-20 12:18:35.809 | INFO     | __main__:on_created:121 - Skipping already processed file: campaign_102_summary_report.pdf
+2025-09-20 12:18:35.809 | INFO     | __main__:on_created:125 - Moved campaign_102_summary_report.pdf to done folder (already processed)
+2025-09-20 12:18:48.098 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 12:19:14.567 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:19:14.569 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:19:18.686 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 12:19:18.691 | ERROR    | __main__:ingest_document:216 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: `pypdf` package not found, please install it with `pip install pypdf`
+2025-09-20 12:19:40.229 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 12:20:29.006 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:20:29.008 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:20:35.392 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 12:20:35.397 | ERROR    | __main__:ingest_document:216 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: `pypdf` package not found, please install it with `pip install pypdf`
+2025-09-20 12:22:44.855 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 12:24:40.526 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 12:24:40.528 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 12:24:43.697 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 12:24:46.579 | INFO     | __main__:ingest_document:207 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-20 12:24:46.586 | INFO     | __main__:ingest_document:211 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-20 12:24:46.586 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-20 12:25:01.112 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_1_summary_report.docx
+2025-09-20 12:25:24.340 | INFO     | __main__:ingest_document:207 - Moved campaign_1_summary_report.docx to done folder
+2025-09-20 12:25:24.347 | INFO     | __main__:ingest_document:211 - Added campaign_1_summary_report.docx to processed files tracking
+2025-09-20 12:25:24.347 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_1_summary_report.docx
+2025-09-20 12:25:24.348 | INFO     | __main__:on_created:121 - Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-20 12:25:24.348 | INFO     | __main__:on_created:125 - Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-09-20 12:25:24.349 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-20 12:25:25.295 | INFO     | __main__:ingest_document:207 - Moved campaign_102_summary_report.pdf to done folder
+2025-09-20 12:25:25.297 | INFO     | __main__:ingest_document:211 - Added campaign_102_summary_report.pdf to processed files tracking
+2025-09-20 12:25:25.297 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_102_summary_report.pdf
+2025-09-20 12:25:25.298 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_201_summary_report.html
+2025-09-20 12:25:26.424 | INFO     | __main__:ingest_document:207 - Moved campaign_201_summary_report.html to done folder
+2025-09-20 12:25:26.425 | INFO     | __main__:ingest_document:211 - Added campaign_201_summary_report.html to processed files tracking
+2025-09-20 12:25:26.425 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_201_summary_report.html
+2025-09-20 12:25:26.426 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-09-20 12:25:27.348 | INFO     | __main__:ingest_document:207 - Moved campaign_202_summary_report.html to done folder
+2025-09-20 12:25:27.350 | INFO     | __main__:ingest_document:211 - Added campaign_202_summary_report.html to processed files tracking
+2025-09-20 12:25:27.350 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_202_summary_report.html
+2025-09-20 12:28:35.251 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 13:19:34.336 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 13:19:34.337 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 13:20:05.605 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 13:20:06.876 | INFO     | __main__:ingest_document:207 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-20 13:20:06.879 | INFO     | __main__:ingest_document:211 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-20 13:20:06.879 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-20 21:14:06.628 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 21:14:10.072 | INFO     | __main__:<module>:234 - Starting document watcher for folder: docs/landing
+2025-09-20 21:14:10.083 | INFO     | __main__:<module>:240 - Watching folder: docs/landing for new documents...
+2025-09-20 21:16:53.963 | INFO     | __main__:on_created:129 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 21:16:54.066 | INFO     | databases.chroma_config:get_chroma_client:33 - Connecting to ChromaDB at localhost:8030
+2025-09-20 21:16:54.257 | INFO     | databases.chroma_config:get_chroma_client:43 - Successfully connected to ChromaDB
+2025-09-20 21:16:55.117 | INFO     | __main__:ingest_document:207 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-20 21:16:55.124 | INFO     | __main__:ingest_document:211 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-20 21:16:55.124 | SUCCESS  | __main__:ingest_document:213 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-20 21:53:42.624 | INFO     | __main__:<module>:246 - Shutting down document watcher.
+2025-09-20 21:53:47.296 | INFO     | __main__:<module>:238 - Starting document watcher for folder: docs/landing
+2025-09-20 21:53:47.297 | INFO     | __main__:<module>:244 - Watching folder: docs/landing for new documents...
+2025-09-20 21:54:01.228 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-20 21:54:01.327 | INFO     | databases.chroma_config:get_chroma_client:33 - Connecting to ChromaDB at localhost:8030
+2025-09-20 21:54:01.519 | INFO     | databases.chroma_config:get_chroma_client:43 - Successfully connected to ChromaDB
+2025-09-20 21:54:02.335 | INFO     | __main__:ingest_document:211 - Moved campaign_102_summary_report.pdf to done folder
+2025-09-20 21:54:02.338 | INFO     | __main__:ingest_document:215 - Added campaign_102_summary_report.pdf to processed files tracking
+2025-09-20 21:54:02.338 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_102_summary_report.pdf
+2025-09-20 22:15:46.784 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-20 22:15:46.797 | INFO     | databases.chroma_config:get_chroma_client:33 - Connecting to ChromaDB at localhost:8030
+2025-09-20 22:15:46.877 | INFO     | databases.chroma_config:get_chroma_client:43 - Successfully connected to ChromaDB
+2025-09-20 22:15:47.638 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-20 22:15:47.641 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-20 22:15:47.641 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 08:59:17.767 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 08:59:17.818 | INFO     | databases.chroma_config:get_chroma_client:33 - Connecting to ChromaDB at localhost:8030
+2025-09-21 08:59:17.909 | INFO     | databases.chroma_config:get_chroma_client:43 - Successfully connected to ChromaDB
+2025-09-21 08:59:18.800 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 08:59:18.807 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 08:59:18.807 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 09:15:50.855 | INFO     | __main__:<module>:250 - Shutting down document watcher.
+2025-09-21 13:44:55.523 | INFO     | __main__:<module>:238 - Starting document watcher for folder: docs/landing
+2025-09-21 13:44:55.524 | INFO     | __main__:<module>:244 - Watching folder: docs/landing for new documents...
+2025-09-21 13:45:17.703 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 13:45:17.803 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 13:45:18.002 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 13:45:18.918 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 13:45:18.922 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 13:45:18.922 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 13:48:19.193 | INFO     | __main__:<module>:250 - Shutting down document watcher.
+2025-09-21 13:53:34.992 | INFO     | __main__:<module>:238 - Starting document watcher for folder: docs/landing
+2025-09-21 13:53:34.993 | INFO     | __main__:<module>:244 - Watching folder: docs/landing for new documents...
+2025-09-21 13:53:51.385 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 13:53:51.499 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 13:53:51.690 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 13:53:52.583 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 13:53:52.587 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 13:53:52.587 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 13:59:07.616 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 13:59:07.657 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 13:59:07.757 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 13:59:08.636 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 13:59:08.643 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 13:59:08.643 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 14:10:29.924 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 14:10:29.991 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 14:10:30.211 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 14:10:31.371 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 14:10:31.378 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 14:10:31.378 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 16:59:48.959 | INFO     | __main__:on_created:133 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 16:59:49.040 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 16:59:49.175 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 16:59:50.371 | INFO     | __main__:ingest_document:211 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 16:59:50.387 | INFO     | __main__:ingest_document:215 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 16:59:50.387 | SUCCESS  | __main__:ingest_document:217 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 17:08:54.755 | INFO     | __main__:<module>:250 - Shutting down document watcher.
+2025-09-21 17:11:33.694 | INFO     | __main__:<module>:247 - Starting document watcher for folder: docs/landing
+2025-09-21 17:11:33.696 | INFO     | __main__:<module>:253 - Watching folder: docs/landing for new documents...
+2025-09-21 17:11:51.474 | INFO     | __main__:on_created:141 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:11:51.595 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:11:51.741 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:11:51.755 | ERROR    | __main__:ingest_document:229 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: 'HuggingFaceEmbeddings' object has no attribute 'name'
+2025-09-21 17:12:49.747 | INFO     | __main__:<module>:259 - Shutting down document watcher.
+2025-09-21 17:14:23.973 | INFO     | __main__:<module>:247 - Starting document watcher for folder: docs/landing
+2025-09-21 17:14:23.974 | INFO     | __main__:<module>:253 - Watching folder: docs/landing for new documents...
+2025-09-21 17:14:36.738 | INFO     | __main__:on_created:141 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:14:36.878 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:14:36.968 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:14:36.972 | ERROR    | __main__:ingest_document:229 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: An embedding function already exists in the collection configuration, and a new one is provided. If this is intentional, please embed documents separately. Embedding function conflict: new: huggingface vs persisted: default
+2025-09-21 17:19:22.226 | INFO     | __main__:<module>:242 - Starting document watcher for folder: docs/landing
+2025-09-21 17:19:22.228 | INFO     | __main__:<module>:248 - Watching folder: docs/landing for new documents...
+2025-09-21 17:19:28.228 | INFO     | __main__:on_created:141 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:19:28.258 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:19:28.372 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:19:28.386 | ERROR    | __main__:ingest_document:229 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: An embedding function already exists in the collection configuration, and a new one is provided. If this is intentional, please embed documents separately. Embedding function conflict: new: huggingface vs persisted: default
+2025-09-21 17:19:41.513 | INFO     | __main__:on_created:136 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:19:41.523 | ERROR    | __main__:ingest_document:224 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs/landing/campaign_101_summary_report.pdf: `pypdf` package not found, please install it with `pip install pypdf`
+2025-09-21 17:20:04.305 | INFO     | __main__:<module>:259 - Shutting down document watcher.
+2025-09-21 17:20:21.377 | INFO     | __main__:<module>:242 - Starting document watcher for folder: docs/landing
+2025-09-21 17:20:21.378 | INFO     | __main__:<module>:248 - Watching folder: docs/landing for new documents...
+2025-09-21 17:20:22.833 | INFO     | __main__:on_created:136 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-21 17:20:22.916 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:20:23.046 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:20:23.051 | ERROR    | __main__:ingest_document:224 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_102_summary_report.pdf: 'HuggingFaceEmbeddings' object has no attribute 'name'
+2025-09-21 17:28:14.802 | INFO     | __main__:<module>:254 - Shutting down document watcher.
+2025-09-21 17:28:28.836 | INFO     | __main__:<module>:244 - Starting document watcher for folder: docs/landing
+2025-09-21 17:28:28.840 | INFO     | __main__:<module>:250 - Watching folder: docs/landing for new documents...
+2025-09-21 17:28:37.267 | INFO     | __main__:<module>:256 - Shutting down document watcher.
+2025-09-21 17:28:51.871 | INFO     | __main__:<module>:244 - Starting document watcher for folder: docs/landing
+2025-09-21 17:28:51.873 | INFO     | __main__:<module>:250 - Watching folder: docs/landing for new documents...
+2025-09-21 17:28:55.487 | INFO     | __main__:on_created:138 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-09-21 17:28:58.362 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:28:58.489 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:28:59.794 | INFO     | __main__:ingest_document:217 - Moved campaign_202_summary_report.html to done folder
+2025-09-21 17:28:59.800 | INFO     | __main__:ingest_document:221 - Added campaign_202_summary_report.html to processed files tracking
+2025-09-21 17:28:59.800 | SUCCESS  | __main__:ingest_document:223 - Successfully ingested: campaign_202_summary_report.html
+2025-09-21 17:29:31.446 | INFO     | __main__:on_created:138 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:29:31.548 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:29:31.604 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:29:32.578 | INFO     | __main__:ingest_document:217 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 17:29:32.582 | INFO     | __main__:ingest_document:221 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 17:29:32.582 | SUCCESS  | __main__:ingest_document:223 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 17:30:46.291 | INFO     | __main__:<module>:256 - Shutting down document watcher.
+2025-09-21 17:34:21.986 | INFO     | __main__:<module>:244 - Starting document watcher for folder: docs/landing
+2025-09-21 17:34:21.988 | INFO     | __main__:<module>:250 - Watching folder: docs/landing for new documents...
+2025-09-21 17:34:34.278 | INFO     | __main__:on_created:138 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:34:34.354 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:34:34.495 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:34:35.705 | INFO     | __main__:ingest_document:217 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 17:34:35.717 | INFO     | __main__:ingest_document:221 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 17:34:35.718 | SUCCESS  | __main__:ingest_document:223 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 17:56:23.042 | INFO     | __main__:<module>:256 - Shutting down document watcher.
+2025-09-21 17:57:41.514 | INFO     | __main__:<module>:242 - Starting document watcher for folder: docs/landing
+2025-09-21 17:57:41.516 | INFO     | __main__:<module>:248 - Watching folder: docs/landing for new documents...
+2025-09-21 17:58:10.034 | INFO     | __main__:<module>:254 - Shutting down document watcher.
+2025-09-21 17:58:20.533 | INFO     | __main__:<module>:242 - Starting document watcher for folder: docs/landing
+2025-09-21 17:58:20.534 | INFO     | __main__:<module>:248 - Watching folder: docs/landing for new documents...
+2025-09-21 17:58:23.805 | INFO     | __main__:on_created:136 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 17:58:23.891 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 17:58:24.029 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 17:58:24.051 | ERROR    | __main__:ingest_document:224 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf: 'HuggingFaceEmbeddings' object has no attribute 'name'
+2025-09-21 18:47:52.438 | INFO     | __main__:<module>:254 - Shutting down document watcher.
+2025-09-21 19:00:26.630 | INFO     | __main__:<module>:305 - Starting document watcher for folder: docs/landing
+2025-09-21 19:00:26.632 | INFO     | __main__:<module>:311 - Watching folder: docs/landing for new documents...
+2025-09-21 19:00:35.572 | INFO     | __main__:on_created:185 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-21 19:00:35.660 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 19:00:35.845 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 19:00:36.675 | INFO     | __main__:ingest_document:278 - Moved campaign_102_summary_report.pdf to done folder
+2025-09-21 19:00:36.684 | INFO     | __main__:ingest_document:282 - Added campaign_102_summary_report.pdf to processed files tracking
+2025-09-21 19:00:36.684 | SUCCESS  | __main__:ingest_document:284 - Successfully ingested: campaign_102_summary_report.pdf
+2025-09-21 19:01:07.858 | INFO     | __main__:<module>:317 - Shutting down document watcher.
+2025-09-21 19:27:12.492 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-21 19:27:12.496 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-21 19:27:16.565 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 19:27:16.646 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 19:27:16.783 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 19:27:19.048 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 19:27:19.078 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 19:27:19.078 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 19:38:40.770 | INFO     | __main__:<module>:291 - Shutting down document watcher.
+2025-09-21 19:40:39.066 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-21 19:40:39.068 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-21 19:40:44.784 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 19:40:44.864 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 19:40:45.018 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 19:40:46.901 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 19:40:46.908 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 19:40:46.908 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 23:13:48.850 | INFO     | __main__:<module>:291 - Shutting down document watcher.
+2025-09-21 23:14:06.460 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-21 23:14:06.462 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-21 23:14:08.875 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 23:14:08.979 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 23:14:09.140 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 23:14:10.387 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 23:14:10.397 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 23:14:10.397 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 23:23:18.561 | INFO     | __main__:<module>:291 - Shutting down document watcher.
+2025-09-21 23:23:34.918 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-21 23:23:34.920 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-21 23:23:37.297 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 23:23:37.368 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-21 23:23:37.516 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-21 23:23:38.533 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 23:23:38.539 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 23:23:38.539 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-22 20:21:20.601 | INFO     | __main__:<module>:291 - Shutting down document watcher.
+2025-09-22 20:21:36.094 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-22 20:21:36.098 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-22 20:21:46.920 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-22 20:21:47.030 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-22 20:21:47.175 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-22 20:21:48.568 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-22 20:21:48.578 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-22 20:21:48.578 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf
+2025-09-22 20:52:24.473 | INFO     | __main__:<module>:291 - Shutting down document watcher.
+2025-09-22 20:53:02.656 | INFO     | __main__:<module>:279 - Starting document watcher for folder: docs/landing
+2025-09-22 20:53:02.657 | INFO     | __main__:<module>:285 - Watching folder: docs/landing for new documents...
+2025-09-22 20:53:05.630 | INFO     | __main__:on_created:159 - New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-22 20:53:05.708 | INFO     | databases.chroma_config:get_chroma_client:17 - Connecting to ChromaDB at localhost:8030
+2025-09-22 20:53:05.847 | INFO     | databases.chroma_config:get_chroma_client:27 - Successfully connected to ChromaDB
+2025-09-22 20:53:06.559 | INFO     | __main__:ingest_document:252 - Moved campaign_101_summary_report.pdf to done folder
+2025-09-22 20:53:06.564 | INFO     | __main__:ingest_document:256 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-22 20:53:06.564 | SUCCESS  | __main__:ingest_document:258 - Successfully ingested: campaign_101_summary_report.pdf

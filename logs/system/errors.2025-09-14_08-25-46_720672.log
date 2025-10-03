@@ -1,0 +1,41 @@
+2025-09-18 17:04:42 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 404 - {'error': {'message': 'No models loaded. Please load a model in the developer page or use the `lms load` command.', 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_found'}}
+2025-09-18 21:44:24 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 429 - {'error': {'message': 'Request too large for gpt-3.5-turbo in organization org-hG61Y7KtUh3me9ZSfAyW0zr7 on tokens per min (TPM): Limit 200000, Requested 417118. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-18 21:44:24 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 429 - {'error': {'message': 'Request too large for gpt-3.5-turbo in organization org-hG61Y7KtUh3me9ZSfAyW0zr7 on tokens per min (TPM): Limit 200000, Requested 417118. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-18 21:52:19 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 429 - {'error': {'message': 'Request too large for gpt-3.5-turbo in organization org-hG61Y7KtUh3me9ZSfAyW0zr7 on tokens per min (TPM): Limit 200000, Requested 417069. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-18 21:57:17 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 429 - {'error': {'message': 'Request too large for gpt-3.5-turbo in organization org-hG61Y7KtUh3me9ZSfAyW0zr7 on tokens per min (TPM): Limit 200000, Requested 417385. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-18 21:57:17 | ERROR | AGENT | Error in custom LangGraph agent: Error code: 429 - {'error': {'message': 'Request too large for gpt-3.5-turbo in organization org-hG61Y7KtUh3me9ZSfAyW0zr7 on tokens per min (TPM): Limit 200000, Requested 417385. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-18 22:25:39 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-101.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:25:39 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-101.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:25:39 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-101.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:25:57 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:25:57 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:25:57 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:32:10 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:32:10 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:32:10 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:32:10 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:32:10 | ERROR | AGENT | External request error: Client error '404 NOT FOUND' for url 'http://localhost:8080/images/public/campaign-500.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:45:05 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-18 22:46:49 | ERROR | AGENT | Error saving chat message: Error binding parameter 6: type 'list' is not supported
+2025-09-19 20:06:58 | ERROR | AGENT | External request error: [Errno 61] Connection refused

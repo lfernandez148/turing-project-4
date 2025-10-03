@@ -1,0 +1,5 @@
+2025-07-30 21:10:30.114 | INFO     | __main__:debug_chroma:19 - === ChromaDB Debug Information ===
+2025-07-30 21:10:30.114 | INFO     | __main__:debug_chroma:26 - ChromaDB directory exists: ../chroma_db
+2025-07-30 21:10:38.017 | INFO     | __main__:debug_chroma:42 - Total documents in ChromaDB: 0
+2025-07-30 21:10:38.018 | WARNING  | __main__:debug_chroma:45 - No documents found in ChromaDB!
+2025-07-30 21:10:38.018 | INFO     | __main__:debug_chroma:46 - Make sure you've run the ingest service and processed some documents.

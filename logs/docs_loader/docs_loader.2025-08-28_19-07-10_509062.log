@@ -1,0 +1,54 @@
+2025-08-28 19:07:10.502 | INFO     | __main__:cleanup_chroma:4 - Starting ChromaDB cleanup process
+2025-08-28 19:07:10.509 | INFO     | __main__:cleanup_chroma:14 - ChromaDB directory not found: ../chroma_db
+2025-08-28 19:07:10.509 | INFO     | __main__:cleanup_chroma:25 - Tracking file not found: processed_files.csv
+2025-08-28 19:07:10.510 | SUCCESS  | __main__:cleanup_chroma:27 - Cleanup complete! Ready for fresh document ingestion.
+2025-08-28 19:07:22.541 | INFO     | __main__:cleanup_chroma:4 - Starting ChromaDB cleanup process
+2025-08-28 19:07:22.541 | INFO     | __main__:cleanup_chroma:4 - Starting ChromaDB cleanup process
+2025-08-28 19:07:22.544 | INFO     | __main__:cleanup_chroma:14 - ChromaDB directory not found: ../chroma_db
+2025-08-28 19:07:22.544 | INFO     | __main__:cleanup_chroma:14 - ChromaDB directory not found: ../chroma_db
+2025-08-28 19:07:22.545 | INFO     | __main__:cleanup_chroma:25 - Tracking file not found: processed_files.csv
+2025-08-28 19:07:22.545 | INFO     | __main__:cleanup_chroma:25 - Tracking file not found: processed_files.csv
+2025-08-28 19:07:22.546 | SUCCESS  | __main__:cleanup_chroma:27 - Cleanup complete! Ready for fresh document ingestion.
+2025-08-28 19:07:22.546 | SUCCESS  | __main__:cleanup_chroma:27 - Cleanup complete! Ready for fresh document ingestion.
+2025-08-28 19:58:00.946 | INFO     | __main__:<module>:163 - Starting document watcher for folder: docs/landing
+2025-08-28 19:58:00.948 | INFO     | __main__:<module>:168 - Watching folder: docs/landing for new documents...
+2025-08-28 19:58:09.904 | INFO     | __main__:on_created:116 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-08-28 19:58:10.002 | ERROR    | __main__:ingest_document:159 - Failed to ingest /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf: name 're' is not defined
+2025-08-28 19:58:18.083 | INFO     | __main__:<module>:174 - Shutting down document watcher.
+2025-08-28 19:58:30.174 | INFO     | __main__:<module>:164 - Starting document watcher for folder: docs/landing
+2025-08-28 19:58:30.175 | INFO     | __main__:<module>:169 - Watching folder: docs/landing for new documents...
+2025-08-28 19:58:36.699 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-08-28 19:58:36.774 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 101
+2025-08-28 19:58:48.379 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-08-28 19:58:48.381 | INFO     | __main__:ingest_document:153 - Moved campaign_101_summary_report.pdf to done folder
+2025-08-28 19:58:48.400 | INFO     | __main__:ingest_document:157 - Added campaign_101_summary_report.pdf to processed files tracking
+2025-08-28 19:59:11.208 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_1_summary_report.docx
+2025-08-28 19:59:18.297 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 1
+2025-08-28 19:59:22.455 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_1_summary_report.docx
+2025-08-28 19:59:22.456 | INFO     | __main__:ingest_document:153 - Moved campaign_1_summary_report.docx to done folder
+2025-08-28 19:59:22.466 | INFO     | __main__:ingest_document:157 - Added campaign_1_summary_report.docx to processed files tracking
+2025-08-28 19:59:22.468 | INFO     | __main__:on_created:109 - Skipping already processed file: campaign_101_summary_report.pdf
+2025-08-28 19:59:22.469 | INFO     | __main__:on_created:113 - Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-08-28 19:59:22.470 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-08-28 19:59:22.476 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 102
+2025-08-28 19:59:26.287 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-08-28 19:59:26.288 | INFO     | __main__:ingest_document:153 - Moved campaign_102_summary_report.pdf to done folder
+2025-08-28 19:59:26.292 | INFO     | __main__:ingest_document:157 - Added campaign_102_summary_report.pdf to processed files tracking
+2025-08-28 19:59:26.293 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_201_summary_report.html
+2025-08-28 19:59:26.537 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 201
+2025-08-28 19:59:30.272 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_201_summary_report.html
+2025-08-28 19:59:30.272 | INFO     | __main__:ingest_document:153 - Moved campaign_201_summary_report.html to done folder
+2025-08-28 19:59:30.281 | INFO     | __main__:ingest_document:157 - Added campaign_201_summary_report.html to processed files tracking
+2025-08-28 19:59:30.284 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-08-28 19:59:30.316 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 202
+2025-08-28 19:59:34.275 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-08-28 19:59:34.275 | INFO     | __main__:ingest_document:153 - Moved campaign_202_summary_report.html to done folder
+2025-08-28 19:59:34.279 | INFO     | __main__:ingest_document:157 - Added campaign_202_summary_report.html to processed files tracking
+2025-08-30 19:00:26.178 | INFO     | __main__:<module>:175 - Shutting down document watcher.
+2025-08-30 19:16:59.145 | INFO     | __main__:<module>:164 - Starting document watcher for folder: docs/landing
+2025-08-30 19:16:59.146 | INFO     | __main__:<module>:169 - Watching folder: docs/landing for new documents...
+2025-08-30 19:17:09.770 | INFO     | __main__:on_created:117 - New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-08-30 19:17:09.903 | SUCCESS  | __main__:ingest_document:135 - campaign_id: 101
+2025-08-30 19:17:18.663 | SUCCESS  | __main__:ingest_document:148 - Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-08-30 19:17:18.665 | INFO     | __main__:ingest_document:153 - Moved campaign_101_summary_report.pdf to done folder
+2025-08-30 19:17:18.675 | INFO     | __main__:ingest_document:157 - Added campaign_101_summary_report.pdf to processed files tracking

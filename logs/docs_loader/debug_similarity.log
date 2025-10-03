@@ -1,0 +1,58 @@
+2025-07-30 21:25:23.423 | INFO     | __main__:test_different_similarity_methods:32 - Testing query: 'executive summary for campaign 101'
+2025-07-30 21:25:23.425 | INFO     | __main__:test_different_similarity_methods:33 - ============================================================
+2025-07-30 21:25:23.425 | INFO     | __main__:test_different_similarity_methods:36 - Method 1: Default ChromaDB (cosine distance)
+2025-07-30 21:25:23.881 | INFO     | __main__:test_different_similarity_methods:41 -   Doc 1: Score=0.9813, Content: Marketing Campaign Summary Report: Campaign 101
+Report Date: 2025-07-26
+Campaign Date: 2024-06-26
+Cu...
+2025-07-30 21:25:23.881 | INFO     | __main__:test_different_similarity_methods:41 -   Doc 2: Score=1.1652, Content: Marketing Campaign Summary Report: Campaign 102
+Report Date: 2025-07-26
+Campaign Date: 2025-04-23
+Cu...
+2025-07-30 21:25:23.881 | INFO     | __main__:test_different_similarity_methods:41 -   Doc 3: Score=1.4148, Content: 55,319
+-
+Opens
+10,095
+18.25
+Clicks
+4,895
+8.85
+Conversions
+1,946
+3.52
+Open to Click Rate
+-
+48.49
+Perf...
+2025-07-30 21:25:23.881 | INFO     | __main__:test_different_similarity_methods:44 - 
+Method 2: Testing with different distance function
+2025-07-30 21:25:23.881 | ERROR    | __main__:test_different_similarity_methods:58 - Error with IP distance: Chroma.__init__() got an unexpected keyword argument 'distance_strategy'
+2025-07-30 21:25:23.881 | INFO     | __main__:test_different_similarity_methods:61 - 
+Method 3: Testing with L2 distance
+2025-07-30 21:25:23.882 | ERROR    | __main__:test_different_similarity_methods:73 - Error with L2 distance: Chroma.__init__() got an unexpected keyword argument 'distance_strategy'
+2025-07-30 21:25:23.882 | INFO     | __main__:test_different_similarity_methods:76 - 
+Method 4: Testing with IP distance (cosine similarity)
+2025-07-30 21:25:23.882 | ERROR    | __main__:test_different_similarity_methods:88 - Error with IP distance: Chroma.__init__() got an unexpected keyword argument 'distance_strategy'
+2025-07-30 21:25:27.151 | INFO     | __main__:test_threshold_adjustment:100 - 
+Testing different thresholds for: 'executive summary for campaign 101'
+2025-07-30 21:25:27.151 | INFO     | __main__:test_threshold_adjustment:101 - ============================================================
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 0.5: 0 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 0.6: 0 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 0.7: 0 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 0.8: 0 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 0.9: 0 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 1.0: 1 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:114 -   First doc content: Marketing Campaign Summary Report: Campaign 101
+Report Date: 2025-07-26
+Campaign Date: 2024-06-26
+Cu...
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 1.2: 2 documents pass
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:114 -   First doc content: Marketing Campaign Summary Report: Campaign 101
+Report Date: 2025-07-26
+Campaign Date: 2024-06-26
+Cu...
+2025-07-30 21:25:27.176 | INFO     | __main__:test_threshold_adjustment:111 - Threshold 1.5: 4 documents pass
+2025-07-30 21:25:27.177 | INFO     | __main__:test_threshold_adjustment:114 -   First doc content: Marketing Campaign Summary Report: Campaign 101
+Report Date: 2025-07-26
+Campaign Date: 2024-06-26
+Cu...

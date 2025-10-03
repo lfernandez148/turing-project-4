@@ -1,0 +1,36 @@
+2025-09-06 09:30:39 | INFO | __main__ | Starting document watcher for folder: docs/landing
+2025-09-06 09:30:39 | INFO | __main__ | Watching folder: docs/landing for new documents...
+2025-09-06 09:30:54 | INFO | __main__ | New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_201_summary_report.html
+2025-09-06 09:30:58 | SUCCESS | __main__ | campaign_id: 201
+2025-09-06 09:31:06 | SUCCESS | __main__ | Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_201_summary_report.html
+2025-09-06 09:31:06 | INFO | __main__ | Moved campaign_201_summary_report.html to done folder
+2025-09-06 09:31:06 | INFO | __main__ | Added campaign_201_summary_report.html to processed files tracking
+2025-09-06 09:31:21 | INFO | __main__ | New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_1_summary_report.docx
+2025-09-06 09:31:22 | SUCCESS | __main__ | campaign_id: 1
+2025-09-06 09:31:25 | SUCCESS | __main__ | Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_1_summary_report.docx
+2025-09-06 09:31:25 | INFO | __main__ | Moved campaign_1_summary_report.docx to done folder
+2025-09-06 09:31:25 | INFO | __main__ | Added campaign_1_summary_report.docx to processed files tracking
+2025-09-06 09:31:25 | INFO | __main__ | Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-06 09:31:25 | INFO | __main__ | Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-09-06 09:31:25 | INFO | __main__ | New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-06 09:31:25 | SUCCESS | __main__ | campaign_id: 102
+2025-09-06 09:31:28 | SUCCESS | __main__ | Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_102_summary_report.pdf
+2025-09-06 09:31:28 | INFO | __main__ | Moved campaign_102_summary_report.pdf to done folder
+2025-09-06 09:31:28 | INFO | __main__ | Added campaign_102_summary_report.pdf to processed files tracking
+2025-09-06 09:31:28 | INFO | __main__ | Skipping already processed file: campaign_201_summary_report.html
+2025-09-06 09:31:28 | INFO | __main__ | Moved campaign_201_summary_report.html to done folder (already processed)
+2025-09-06 09:31:28 | INFO | __main__ | New document detected: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-09-06 09:31:28 | SUCCESS | __main__ | campaign_id: 202
+2025-09-06 09:31:32 | SUCCESS | __main__ | Ingested and indexed: /Users/lolo/shared/projects/turing/sprint-3/project-23/docs_loader/docs/landing/campaign_202_summary_report.html
+2025-09-06 09:31:32 | INFO | __main__ | Moved campaign_202_summary_report.html to done folder
+2025-09-06 09:31:32 | INFO | __main__ | Added campaign_202_summary_report.html to processed files tracking
+2025-09-06 09:48:48 | INFO | __main__ | Shutting down document watcher.
+2025-09-06 09:49:23 | INFO | __main__ | Starting document watcher for folder: docs/landing
+2025-09-06 09:49:23 | INFO | __main__ | Watching folder: docs/landing for new documents...
+2025-09-06 09:52:24 | INFO | __main__ | Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-06 09:52:24 | INFO | __main__ | Moved campaign_101_summary_report.pdf to done folder (already processed)
+2025-09-08 20:18:37 | INFO | __main__ | Shutting down document watcher.
+2025-09-09 14:50:24 | INFO | __main__ | Starting document watcher for folder: docs/landing
+2025-09-09 14:50:24 | INFO | __main__ | Watching folder: docs/landing for new documents...
+2025-09-09 14:54:14 | INFO | __main__ | Skipping already processed file: campaign_101_summary_report.pdf
+2025-09-09 14:54:14 | INFO | __main__ | Moved campaign_101_summary_report.pdf to done folder (already processed)

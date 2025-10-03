@@ -1,0 +1,220 @@
+2025-08-30 19:22:47.539 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:22:47.550 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by opens (API Key: Test API Key)
+2025-08-30 19:24:04.469 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:24:04.473 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion rate (API Key: Test API Key)
+2025-08-30 19:25:00.037 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:25:00.041 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 19:30:24.008 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:30:24.011 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 19:31:28.909 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:31:28.912 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion rate (API Key: Test API Key)
+2025-08-30 19:33:09.804 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:33:09.807 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 19:43:58.605 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:43:58.608 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 19:47:23.226 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:47:23.228 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 19:54:15.611 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 19:54:15.614 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 20:00:12.544 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 20:00:12.547 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 20:03:05.740 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 20:03:05.741 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 20:08:50.991 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 20:08:50.993 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 20:09:42.344 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 20:09:42.347 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 20:10:15.165 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 20:10:15.168 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 20 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 21:33:12.691 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 21:33:12.695 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 5 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-30 21:40:58.259 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-30 21:40:58.262 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 08:38:14.105 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 08:38:14.113 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 08:50:41.790 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 08:50:41.792 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:12:00.236 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:12:00.240 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:26:45.612 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:26:45.619 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:27:19.346 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:27:19.348 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:27:46.274 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:27:46.278 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:36:59.183 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:36:59.187 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 09:41:46.812 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 09:41:46.814 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 10:21:12.779 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:21:12.781 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 10:30:12.333 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:30:12.339 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 10:31:51.402 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:31:51.411 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 10:32:47.245 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:32:47.248 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion rate (API Key: Test API Key)
+2025-08-31 10:33:59.810 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:33:59.815 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion rate (API Key: Test API Key)
+2025-08-31 10:35:02.370 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:35:02.374 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by open_rate (API Key: Test API Key)
+2025-08-31 10:36:53.531 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:36:53.543 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 3 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 10:40:09.990 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 10:40:09.994 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 4 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 19:47:57.816 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 19:47:57.825 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 2 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 19:49:47.215 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 19:49:47.219 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 1 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 19:57:35.668 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 19:57:35.671 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 11 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 19:59:45.537 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 19:59:45.540 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 11 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:00:33.271 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:00:33.278 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 11 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:02:20.562 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:02:20.564 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 11 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:06:32.878 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:06:32.882 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 12 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:07:36.503 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:07:36.507 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 7 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:09:49.608 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:09:49.614 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by conversion_rate (API Key: Test API Key)
+2025-08-31 20:21:06.382 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:21:06.385 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:21:06.402 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:21:06.404 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:26:24.229 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:26:24.232 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:26:24.265 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:26:24.266 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:26:26.038 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:26:26.038 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:26:26.049 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:26:26.050 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:28:18.406 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:18.409 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:28:18.433 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:18.434 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:28:18.512 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:18.512 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:28:18.516 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:18.516 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:28:19.424 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:19.424 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:28:44.626 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:44.630 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:28:44.644 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:44.646 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:28:44.739 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:44.740 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:28:44.743 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:44.743 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:28:46.283 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:28:46.283 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:48.163 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:48.165 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:48.176 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:48.177 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:48.252 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:48.252 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:48.256 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:48.256 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:49.850 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:49.851 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:49.858 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:49.858 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:56.956 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:56.958 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:56.967 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:56.968 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:57.027 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:57.027 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:57.030 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:57.031 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:57.078 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:57.078 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:57.081 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:57.081 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:34:58.815 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:58.816 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:34:58.823 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:34:58.823 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:04.182 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.188 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:04.203 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.204 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:04.256 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.256 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:04.259 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.260 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:04.311 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.311 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:04.314 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.314 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:04.364 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.364 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:04.368 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:04.368 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:05.011 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:05.013 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by opens (API Key: Test API Key)
+2025-08-31 20:36:53.659 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.664 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:53.672 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.673 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:53.742 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.742 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:53.746 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.746 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:53.789 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.789 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:53.793 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.793 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:36:53.831 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.831 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:36:53.835 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:36:53.835 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:07.779 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:07.782 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:07.797 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:07.798 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:13.449 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:13.451 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:13.460 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:13.461 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:14.202 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:14.203 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:24.131 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:24.132 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:24.140 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:24.141 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:24.819 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:24.819 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:32.990 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:32.993 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:33.003 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:33.004 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:34.747 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:34.748 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:34.755 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:34.755 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:46.904 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:46.906 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:46.926 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:46.928 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:46.983 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:46.983 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:46.986 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:46.986 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:47.715 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:47.716 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by opens (API Key: Test API Key)
+2025-08-31 20:40:58.465 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:58.467 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:58.526 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:58.527 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 20:40:58.573 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:58.574 | INFO     | main:get_campaign_summary_stats:208 - API: Getting campaign summary statistics (API Key: Test API Key)
+2025-08-31 20:40:58.577 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 20:40:58.577 | INFO     | main:get_all_campaigns:506 - API: Getting all campaigns (API Key: Test API Key)
+2025-08-31 21:30:49.744 | INFO     | main:verify_api_key:154 - Valid API key used: Test API Key
+2025-08-31 21:30:49.754 | INFO     | main:get_top_campaigns_by_metric:267 - API: Getting top 10 campaigns by opens (API Key: Test API Key)

@@ -1,0 +1,7 @@
+2025-09-21 08:59:17 | INFO | __main__ | New document detected: /Users/lolo/shared/projects/turing/sprint-4/project-4/docs_loader/docs/landing/campaign_101_summary_report.pdf
+2025-09-21 08:59:17 | INFO | databases.chroma_config | Connecting to ChromaDB at localhost:8030
+2025-09-21 08:59:17 | INFO | databases.chroma_config | Successfully connected to ChromaDB
+2025-09-21 08:59:18 | INFO | __main__ | Moved campaign_101_summary_report.pdf to done folder
+2025-09-21 08:59:18 | INFO | __main__ | Added campaign_101_summary_report.pdf to processed files tracking
+2025-09-21 08:59:18 | SUCCESS | __main__ | Successfully ingested: campaign_101_summary_report.pdf
+2025-09-21 09:15:50 | INFO | __main__ | Shutting down document watcher.
