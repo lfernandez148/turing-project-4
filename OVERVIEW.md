@@ -23,7 +23,7 @@ The **Campaign Performance AI Assistant** is a comprehensive AI-powered analytic
 
 > **🆕 New to Campaign Performance Assistant?**
 >
-> If you're new to the system or unfamiliar with marketing campaign analysis, start with our [📖 **System Overview**](OVERVIEW.md) for a comprehensive introduction to the problem we solve, our solution approach, and how different team members can benefit from the system.
+> If you're new to the system or unfamiliar with marketing campaign analysis, start with our [README.md](README.md) for a comprehensive introduction to the problem we solve, our solution approach, and how different team members can benefit from the system.
 
 ### 🌟 Key Features
 

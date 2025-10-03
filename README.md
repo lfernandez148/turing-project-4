@@ -227,7 +227,7 @@ Ask follow-up questions naturally:
 
 Ready to explore your campaign data? The Campaign Performance Assistant is designed to be intuitive and user-friendly. Simply log in and start asking questions about your campaigns - no training required!
 
-*For detailed technical documentation and usage instructions, see our [README.md](README.md).*
+*For detailed technical documentation and usage instructions, see our [📖 **System Overview**](OVERVIEW.md).*
 
 ---
 
